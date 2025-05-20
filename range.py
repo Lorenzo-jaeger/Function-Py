@@ -12,7 +12,7 @@ import time
 
 print("counter:")
 for i in range(5):
-    print(5 - i, end="\n")
-    # print(i,end="\r" )
+    print(5 - i, end="\r")
+    # print(i,end="\n" )
     time.sleep(1)
 print("he finished")
